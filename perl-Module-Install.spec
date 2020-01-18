@@ -1,6 +1,6 @@
 Name:           perl-Module-Install
 Version:        1.06
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Standalone, extensible Perl module installer
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -73,6 +73,9 @@ make test AUTOMATED_TESTING=1
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.06-4
+- Mass rebuild 2013-12-27
+
 * Wed Jan 30 2013 Paul Howarth <paul@city-fan.org> - 1.06-3
 - Don't "unbundle" Module::Install as we end up build-requiring ourselves
 
